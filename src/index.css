@@ -1,0 +1,35 @@
+body {
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* --- --- MEDIAQUERIES --- --- */
+@media screen and (max-width: 1023px) {
+  .barra-lateral {
+    min-width: auto;
+  }
+
+  .barra-lateral .logo {
+    display: none;
+  }
+
+  .barra-lateral .menu a span {
+    display: none;
+  }
+
+  .barra-lateral .menu a i {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .barra-lateral {
+    min-height: auto;
+  }
+
+  .barra-lateral .menu a {
+    display: inline-block;
+    border-bottom: none;
+  }
+}

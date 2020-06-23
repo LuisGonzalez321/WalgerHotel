@@ -1,0 +1,143 @@
+.columna-card {
+  margin: 10px 10px;
+  padding: 0;
+}
+
+.card-block {
+  padding: 0px;
+}
+
+.card {
+  margin: 0px;
+}
+
+.card-header {
+  color: rgb(122, 31, 118);
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.full-icon {
+  font-size: 50px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: rgb(168, 37, 166);
+}
+
+.full-icon:hover {
+  font-size: 70px;
+  transition: all 0.3s ease;
+  color: rgb(110, 22, 109);
+}
+
+.btn {
+  background-color: rgb(168, 37, 166);
+  margin: auto;
+  color: rgb(234, 229, 229);
+}
+
+.btn:hover {
+  background-color: rgb(195, 58, 193);
+  color: rgb(234, 229, 229);
+}
+
+.contenedor-boton {
+  margin: 5px 10px;
+}
+
+/*       estilos de HeaderMenu      */
+
+.nav:first-child {
+  background: rgb(205, 203, 203);
+}
+
+.col {
+  padding-left: 0px;
+}
+
+.nav h1 {
+  display: inline-block;
+}
+
+.nav div {
+  float: right;
+}
+
+.title-icon {
+  font-size: 30px;
+  color: rgb(161, 158, 158);
+  margin: 10px 20px;
+}
+
+.title-icon:hover {
+  color: rgb(100, 8, 99);
+}
+
+/*  SLide   */
+/*
+ .Slide{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: #fff;
+ }
+
+ .Slide_Container{
+     position: relative;
+     width: 100%;
+     max-width: 400px;
+     height: 100vh;
+     overflow: hidden;
+     margin:0 auto;
+     top:0;
+ }*/
+
+.Slide_Container_Img {
+  width: 600px;
+  height: 456px;
+  position: absolute;
+}
+
+.Slide_Container_tittle {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  line-height: 4;
+  color: rgb(231, 227, 227);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@keyframes Show {
+  0% {
+    z-index: 1;
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    z-index: 1;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.animaShow {
+  animation: 0.6s Show ease-out;
+  animation-fill-mode: forwards;
+}
+
+.animahide {
+  animation: 650ms ease-out;
+  animation-fill-mode: forwards;
+}

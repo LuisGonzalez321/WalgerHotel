@@ -1,0 +1,2 @@
+[0606/002644.387:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 25cf252e-ac9b-4b78-8e73-c29b8d2f86ed
+[0606/002705.886:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: La operación se completó correctamente. (0x0)

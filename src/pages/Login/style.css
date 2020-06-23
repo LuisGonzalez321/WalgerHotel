@@ -1,0 +1,65 @@
+.columna {
+  background-image: url("../../img/Fondo_Menu.jpg");
+  height: auto;
+  text-align: center;
+}
+
+.d-1 {
+  margin-top: 80px;
+}
+
+.contenedor-form h2 {
+  margin-top: 150px;
+}
+
+.columna h2,
+h3,
+p {
+  color: rgb(233, 229, 229);
+}
+
+input {
+  margin: 0px 20px;
+}
+
+.boton {
+  background-color: rgb(143, 33, 141);
+  color: rgb(233, 229, 229);
+  padding: 10px 150px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.boton:hover {
+  background-color: rgb(167, 57, 165);
+  color: rgb(233, 229, 229);
+  text-decoration: none;
+}
+
+.enlace {
+  color: rgb(167, 57, 165);
+}
+
+.enlace:hover {
+  color: rgb(116, 43, 114);
+}
+
+.form-g {
+  margin-top: 40px;
+}
+
+label {
+  color: rgb(167, 57, 165);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icono {
+  background-color: rgb(233, 229, 229);
+  border-radius: 20px;
+  width: 50px;
+  height: 10px;
+  margin: auto;
+  margin-bottom: 100px;
+}
