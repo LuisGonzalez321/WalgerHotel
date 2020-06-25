@@ -95,6 +95,7 @@ class Login extends Component {
                   Ha olvidado la contraseña?
                 </Link>
                 <this.TextoP flag={this.state.estado} />
+                <p>Muestra</p>
               </div>
             </div>
           </form>
